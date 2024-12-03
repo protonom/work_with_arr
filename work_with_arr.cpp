@@ -1,6 +1,13 @@
 ﻿
 #include <iostream>
 
+void show_arr(int ARR[8], int size = 8) 
+{
+    for (int i = 0; i < size; i++) {
+        std::cout << ARR[i] << ", ";
+    }
+}
+
 int main()
 {
     const int size = 8;
@@ -14,4 +21,3 @@ int main()
     }
     std::cout << (char)8 << (char)8;
 }
-
